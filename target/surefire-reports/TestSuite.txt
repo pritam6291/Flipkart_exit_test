@@ -1,0 +1,47 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 19, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 336.547 s <<< FAILURE! - in TestSuite
+grocery_test(Flipkart_testcases.Test_07_grocery)  Time elapsed: 5.184 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="container"]/div/div[1]/div[1]/div[2]/div[3]/div[2]/div/div[2]/div[2]/div/div/div[1]/form/input"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6cb67fabfc7de3faff1845d80335732f, findElement {using=xpath, value=//*[@id="container"]/div/div[1]/div[1]/div[2]/div[3]/div[2]/div/div[2]/div[2]/div/div/div[1]/form/input}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\PRITAM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55101}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55101/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6cb67fabfc7de3faff1845d80335732f
+	at Flipkart_testcases.Test_07_grocery.grocery_test(Test_07_grocery.java:24)
+
+order_place(Flipkart_testcases.Test_10_place_order)  Time elapsed: 13.609 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"div._1Er18h div._6t1WkM._3HqJxg div._1YokD2._2GoDe3.col-12-12 div._1YokD2._3Mn1Gg:nth-child(1) div._1YokD2._3Mn1Gg.col-12-12 div._1AtVbE.col-12-12:nth-child(3) div.zab8Yh._10k93p div.nZz3kj._1hNI6F div._1uc2IE div._3dY_ZR > button._23FHuj:nth-child(3)"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6cb67fabfc7de3faff1845d80335732f, findElement {using=css selector, value=div._1Er18h div._6t1WkM._3HqJxg div._1YokD2._2GoDe3.col-12-12 div._1YokD2._3Mn1Gg:nth-child(1) div._1YokD2._3Mn1Gg.col-12-12 div._1AtVbE.col-12-12:nth-child(3) div.zab8Yh._10k93p div.nZz3kj._1hNI6F div._1uc2IE div._3dY_ZR > button._23FHuj:nth-child(3)}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\PRITAM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55101}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55101/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6cb67fabfc7de3faff1845d80335732f
+	at Flipkart_testcases.Test_10_place_order.order_place(Test_10_place_order.java:31)
+
+Test_searchFlight(Flipkart_testcases.Test_12_travel)  Time elapsed: 10.652 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6cb67fabfc7de3faff1845d80335732f, clickElement {id=d1dfbe5a-c9b2-4115-93ee-bbf904a39d76}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\PRITAM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55101}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55101/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (6cb67fabfc7de3faff1845d80335732f)] -> xpath: //div[contains(text(),'BLR')]]
+Session ID: 6cb67fabfc7de3faff1845d80335732f
+	at Flipkart_testcases.Test_12_travel.Test_searchFlight(Test_12_travel.java:29)
+
+Customer_care_test(Flipkart_testcases.Test_16_customer_care)  Time elapsed: 0.009 s  <<< FAILURE!
+java.lang.NullPointerException
+	at Flipkart_testcases.Test_16_customer_care.Customer_care_test(Test_16_customer_care.java:19)
+

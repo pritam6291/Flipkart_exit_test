@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="38" total="57" passed="15" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-10T06:58:06 IST" name="Surefire suite" finished-at="2023-01-10T07:03:37 IST" duration-ms="331541">
+    <groups>
+    </groups>
+    <test started-at="2023-01-10T06:58:06 IST" name="Surefire test" finished-at="2023-01-10T07:03:37 IST" duration-ms="331541">
+      <class name="Common.BaseTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:Common.BaseTest@30ea8c23]" started-at="2023-01-10T06:58:03 IST" name="launchBrowser" finished-at="2023-01-10T06:58:06 IST" duration-ms="2688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="Close()[pri:0, instance:Common.BaseTest@30ea8c23]" started-at="2023-01-10T07:03:37 IST" name="Close" finished-at="2023-01-10T07:03:38 IST" duration-ms="1139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+      </class> <!-- Common.BaseTest -->
+      <class name="Flipkart_testcases.Test_18_flipkart_stories">
+        <test-method is-config="true" signature="launchurl(java.lang.reflect.Method)[pri:0, instance:Flipkart_testcases.Test_18_flipkart_stories@4215838f]" started-at="2023-01-10T07:02:11 IST" name="launchurl" finished-at="2023-01-10T07:02:13 IST" duration-ms="1187" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Flipkart_testcases.Test_18_flipkart_stories.stories() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchurl -->
+        <test-method signature="stories()[pri:0, instance:Flipkart_testcases.Test_18_flipkart_stories@4215838f]" started-at="2023-01-10T07:02:13 IST" name="stories" finished-at="2023-01-10T07:02:54 IST" duration-ms="40907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stories -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:Flipkart_testcases.Test_18_flipkart_stories@4215838f]" started-at="2023-01-10T07:02:54 IST" name="CloseBrowser" finished-at="2023-01-10T07:02:54 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=stories status=SUCCESS method=Test_18_flipkart_stories.stories()[pri:0, instance:Flipkart_testcases.Test_18_flipkart_stories@4215838f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- Flipkart_testcases.Test_18_flipkart_stories -->
+      <class name="Flipkart_testcases.Test_07_grocery">
+        <test-method is-config="true" signature="launchurl(java.lang.reflect.Method)[pri:0, instance:Flipkart_testcases.Test_07_grocery@5d465e4b]" started-at="2023-01-10T06:59:46 IST" name="launchurl" finished-at="2023-01-10T06:59:48 IST" duration-ms="1173" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Flipkart_testcases.Test_07_grocery.grocery_test() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchurl -->
+        <test-method signature="grocery_test()[pri:0, instance:Flipkart_testcases.Test_07_grocery@5d465e4b]" started-at="2023-01-10T06:59:48 IST" name="grocery_test" finished-at="2023-01-10T06:59:53 IST" duration-ms="5174" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="container"]/div/div[1]/div[1]/div[2]/div[3]/div[2]/div/div[2]/div[2]/div/div/div[1]/form/input"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6cb67fabfc7de3faff1845d80335732f, findElement {using=xpath, value=//*[@id="container"]/div/div[1]/div[1]/div[2]/div[3]/div[2]/div/div[2]/div[2]/div/div/div[1]/form/input}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\PRITAM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55101}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55101/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6cb67fabfc7de3faff1845d80335732f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="container"]/div/div[1]/div[1]/div[2]/div[3]/div[2]/div/div[2]/div[2]/div/div/div[1]/form/input"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6cb67fabfc7de3faff1845d80335732f, findElement {using=xpath, value=//*[@id="container"]/div/div[1]/div[1]/div[2]/div[3]/div[2]/div/div[2]/div[2]/div/div/div[1]/form/input}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\PRITAM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55101}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55101/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6cb67fabfc7de3faff1845d80335732f
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy16.sendKeys(Unknown Source)
+at Pages.GroceryPage.enter_pin(GroceryPage.java:38)
+at Flipkart_testcases.Test_07_grocery.grocery_test(Test_07_grocery.java:24)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- grocery_test -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:Flipkart_testcases.Test_07_grocery@5d465e4b]" started-at="2023-01-10T06:59:53 IST" name="CloseBrowser" finished-at="2023-01-10T06:59:53 IST" duration-ms="314" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=grocery_test status=FAILURE method=Test_07_grocery.grocery_test()[pri:0, instance:Flipkart_testcases.Test_07_grocery@5d465e4b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- Flipkart_testcases.Test_07_grocery -->
+      <class name="Flipkart_testcases.Test_02_login">
+        <test-method is-config="true" signature="launchurl(java.lang.reflect.Method)[pri:0, instance:Flipkart_testcases.Test_02_login@7b139eab]" started-at="2023-01-10T06:58:06 IST" name="launchurl" finished-at="2023-01-10T06:58:50 IST" duration-ms="43850" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Flipkart_testcases.Test_02_login.login()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchurl -->
+        <test-method signature="login()[pri:0, instance:Flipkart_testcases.Test_02_login@7b139eab]" started-at="2023-01-10T06:58:50 IST" name="login" finished-at="2023-01-10T06:58:50 IST" duration-ms="323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:Flipkart_testcases.Test_02_login@7b139eab]" started-at="2023-01-10T06:58:50 IST" name="CloseBrowser" finished-at="2023-01-10T06:58:50 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=Test_02_login.login()[pri:0, instance:Flipkart_testcases.Test_02_login@7b139eab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- Flipkart_testcases.Test_02_login -->
+      <class name="Flipkart_testcases.Test_05_giftCards">
+        <test-method is-config="true" signature="launchurl(java.lang.reflect.Method)[pri:0, instance:Flipkart_testcases.Test_05_giftCards@5f2f577]" started-at="2023-01-10T06:59:02 IST" name="launchurl" finished-at="2023-01-10T06:59:03 IST" duration-ms="987" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Flipkart_testcases.Test_05_giftCards.GiftCardTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchurl -->
+        <test-method signature="GiftCardTest()[pri:0, instance:Flipkart_testcases.Test_05_giftCards@5f2f577]" started-at="2023-01-10T06:59:03 IST" name="GiftCardTest" finished-at="2023-01-10T06:59:32 IST" duration-ms="28837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GiftCardTest -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:Flipkart_testcases.Test_05_giftCards@5f2f577]" started-at="2023-01-10T06:59:32 IST" name="CloseBrowser" finished-at="2023-01-10T06:59:32 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GiftCardTest status=SUCCESS method=Test_05_giftCards.GiftCardTest()[pri:0, instance:Flipkart_testcases.Test_05_giftCards@5f2f577] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- Flipkart_testcases.Test_05_giftCards -->
+      <class name="Flipkart_testcases.Test_10_place_order">
+        <test-method is-config="true" signature="launchurl(java.lang.reflect.Method)[pri:0, instance:Flipkart_testcases.Test_10_place_order@3d8bbcdc]" started-at="2023-01-10T07:00:20 IST" name="launchurl" finished-at="2023-01-10T07:00:21 IST" duration-ms="1005" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Flipkart_testcases.Test_10_place_order.order_place() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchurl -->
+        <test-method signature="order_place()[pri:0, instance:Flipkart_testcases.Test_10_place_order@3d8bbcdc]" started-at="2023-01-10T07:00:21 IST" name="order_place" finished-at="2023-01-10T07:00:34 IST" duration-ms="13609" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"div._1Er18h div._6t1WkM._3HqJxg div._1YokD2._2GoDe3.col-12-12 div._1YokD2._3Mn1Gg:nth-child(1) div._1YokD2._3Mn1Gg.col-12-12 div._1AtVbE.col-12-12:nth-child(3) div.zab8Yh._10k93p div.nZz3kj._1hNI6F div._1uc2IE div._3dY_ZR > button._23FHuj:nth-child(3)"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6cb67fabfc7de3faff1845d80335732f, findElement {using=css selector, value=div._1Er18h div._6t1WkM._3HqJxg div._1YokD2._2GoDe3.col-12-12 div._1YokD2._3Mn1Gg:nth-child(1) div._1YokD2._3Mn1Gg.col-12-12 div._1AtVbE.col-12-12:nth-child(3) div.zab8Yh._10k93p div.nZz3kj._1hNI6F div._1uc2IE div._3dY_ZR > button._23FHuj:nth-child(3)}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\PRITAM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55101}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55101/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6cb67fabfc7de3faff1845d80335732f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div._1Er18h div._6t1WkM._3HqJxg div._1YokD2._2GoDe3.col-12-12 div._1YokD2._3Mn1Gg:nth-child(1) div._1YokD2._3Mn1Gg.col-12-12 div._1AtVbE.col-12-12:nth-child(3) div.zab8Yh._10k93p div.nZz3kj._1hNI6F div._1uc2IE div._3dY_ZR > button._23FHuj:nth-child(3)"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6cb67fabfc7de3faff1845d80335732f, findElement {using=css selector, value=div._1Er18h div._6t1WkM._3HqJxg div._1YokD2._2GoDe3.col-12-12 div._1YokD2._3Mn1Gg:nth-child(1) div._1YokD2._3Mn1Gg.col-12-12 div._1AtVbE.col-12-12:nth-child(3) div.zab8Yh._10k93p div.nZz3kj._1hNI6F div._1uc2IE div._3dY_ZR > button._23FHuj:nth-child(3)}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\PRITAM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55101}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55101/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6cb67fabfc7de3faff1845d80335732f
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy16.click(Unknown Source)
+at Pages.Place_order_page.Order(Place_order_page.java:32)
+at Flipkart_testcases.Test_10_place_order.order_place(Test_10_place_order.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- order_place -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:Flipkart_testcases.Test_10_place_order@3d8bbcdc]" started-at="2023-01-10T07:00:34 IST" name="CloseBrowser" finished-at="2023-01-10T07:00:35 IST" duration-ms="324" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=order_place status=FAILURE method=Test_10_place_order.order_place()[pri:0, instance:Flipkart_testcases.Test_10_place_order@3d8bbcdc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- Flipkart_testcases.Test_10_place_order -->
+      <class name="Flipkart_testcases.Test_20_footer">
+        <test-method is-config="true" signature="launchurl(java.lang.reflect.Method)[pri:0, instance:Flipkart_testcases.Test_20_footer@2289aca5]" started-at="2023-01-10T07:03:04 IST" name="launchurl" finished-at="2023-01-10T07:03:05 IST" duration-ms="1230" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Flipkart_testcases.Test_20_footer.FacebookFooterTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchurl -->
+        <test-method signature="FacebookFooterTest()[pri:0, instance:Flipkart_testcases.Test_20_footer@2289aca5]" started-at="2023-01-10T07:03:05 IST" name="FacebookFooterTest" finished-at="2023-01-10T07:03:37 IST" duration-ms="32536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FacebookFooterTest -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:Flipkart_testcases.Test_20_footer@2289aca5]" started-at="2023-01-10T07:03:37 IST" name="CloseBrowser" finished-at="2023-01-10T07:03:37 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FacebookFooterTest status=SUCCESS method=Test_20_footer.FacebookFooterTest()[pri:0, instance:Flipkart_testcases.Test_20_footer@2289aca5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- Flipkart_testcases.Test_20_footer -->
+      <class name="Flipkart_testcases.Test_19_flipkart_wholesale">
+        <test-method is-config="true" signature="launchurl(java.lang.reflect.Method)[pri:0, instance:Flipkart_testcases.Test_19_flipkart_wholesale@452ba1db]" started-at="2023-01-10T07:02:54 IST" name="launchurl" finished-at="2023-01-10T07:02:55 IST" duration-ms="1191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Flipkart_testcases.Test_19_flipkart_wholesale.wholesale_test() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchurl -->
+        <test-method signature="wholesale_test()[pri:0, instance:Flipkart_testcases.Test_19_flipkart_wholesale@452ba1db]" started-at="2023-01-10T07:02:55 IST" name="wholesale_test" finished-at="2023-01-10T07:03:04 IST" duration-ms="8770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wholesale_test -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:Flipkart_testcases.Test_19_flipkart_wholesale@452ba1db]" started-at="2023-01-10T07:03:04 IST" name="CloseBrowser" finished-at="2023-01-10T07:03:04 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=wholesale_test status=SUCCESS method=Test_19_flipkart_wholesale.wholesale_test()[pri:0, instance:Flipkart_testcases.Test_19_flipkart_wholesale@452ba1db] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- Flipkart_testcases.Test_19_flipkart_wholesale -->
+      <class name="Flipkart_testcases.Test_06_grocery_basket">
+        <test-method is-config="true" signature="launchurl(java.lang.reflect.Method)[pri:0, instance:Flipkart_testcases.Test_06_grocery_basket@6273c5a4]" started-at="2023-01-10T06:59:32 IST" name="launchurl" finished-at="2023-01-10T06:59:33 IST" duration-ms="1075" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Flipkart_testcases.Test_06_grocery_basket.grocery_basket() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchurl -->
+        <test-method signature="grocery_basket()[pri:0, instance:Flipkart_testcases.Test_06_grocery_basket@6273c5a4]" started-at="2023-01-10T06:59:33 IST" name="grocery_basket" finished-at="2023-01-10T06:59:46 IST" duration-ms="13263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- grocery_basket -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:Flipkart_testcases.Test_06_grocery_basket@6273c5a4]" started-at="2023-01-10T06:59:46 IST" name="CloseBrowser" finished-at="2023-01-10T06:59:46 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=grocery_basket status=SUCCESS method=Test_06_grocery_basket.grocery_basket()[pri:0, instance:Flipkart_testcases.Test_06_grocery_basket@6273c5a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- Flipkart_testcases.Test_06_grocery_basket -->
+      <class name="Flipkart_testcases.Test_08_mobiles">
+        <test-method is-config="true" signature="launchurl(java.lang.reflect.Method)[pri:0, instance:Flipkart_testcases.Test_08_mobiles@53e211ee]" started-at="2023-01-10T06:59:53 IST" name="launchurl" finished-at="2023-01-10T06:59:54 IST" duration-ms="956" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Flipkart_testcases.Test_08_mobiles.Mobile_TestCase() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchurl -->
+        <test-method signature="Mobile_TestCase()[pri:0, instance:Flipkart_testcases.Test_08_mobiles@53e211ee]" started-at="2023-01-10T06:59:54 IST" name="Mobile_TestCase" finished-at="2023-01-10T07:00:10 IST" duration-ms="16298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mobile_TestCase -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:Flipkart_testcases.Test_08_mobiles@53e211ee]" started-at="2023-01-10T07:00:10 IST" name="CloseBrowser" finished-at="2023-01-10T07:00:10 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Mobile_TestCase status=SUCCESS method=Test_08_mobiles.Mobile_TestCase()[pri:0, instance:Flipkart_testcases.Test_08_mobiles@53e211ee] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- Flipkart_testcases.Test_08_mobiles -->
+      <class name="Flipkart_testcases.Test_04_add_to_cart">
+        <test-method is-config="true" signature="launchurl(java.lang.reflect.Method)[pri:0, instance:Flipkart_testcases.Test_04_add_to_cart@611df6e3]" started-at="2023-01-10T06:58:53 IST" name="launchurl" finished-at="2023-01-10T06:58:54 IST" duration-ms="1055" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Flipkart_testcases.Test_04_add_to_cart.addToCart() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchurl -->
+        <test-method signature="addToCart()[pri:0, instance:Flipkart_testcases.Test_04_add_to_cart@611df6e3]" started-at="2023-01-10T06:58:54 IST" name="addToCart" finished-at="2023-01-10T06:59:02 IST" duration-ms="8609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:Flipkart_testcases.Test_04_add_to_cart@611df6e3]" started-at="2023-01-10T06:59:02 IST" name="CloseBrowser" finished-at="2023-01-10T06:59:02 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addToCart status=SUCCESS method=Test_04_add_to_cart.addToCart()[pri:0, instance:Flipkart_testcases.Test_04_add_to_cart@611df6e3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- Flipkart_testcases.Test_04_add_to_cart -->
+      <class name="Flipkart_testcases.Test_12_travel">
+        <test-method is-config="true" signature="launchurl(java.lang.reflect.Method)[pri:0, instance:Flipkart_testcases.Test_12_travel@117e0fe5]" started-at="2023-01-10T07:00:44 IST" name="launchurl" finished-at="2023-01-10T07:00:46 IST" duration-ms="1247" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Flipkart_testcases.Test_12_travel.Test_searchFlight() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchurl -->
+        <test-method signature="Test_searchFlight()[pri:0, instance:Flipkart_testcases.Test_12_travel@117e0fe5]" started-at="2023-01-10T07:00:46 IST" name="Test_searchFlight" finished-at="2023-01-10T07:00:56 IST" duration-ms="10651" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6cb67fabfc7de3faff1845d80335732f, clickElement {id=d1dfbe5a-c9b2-4115-93ee-bbf904a39d76}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\PRITAM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55101}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55101/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (6cb67fabfc7de3faff1845d80335732f)] -> xpath: //div[contains(text(),'BLR')]]
+Session ID: 6cb67fabfc7de3faff1845d80335732f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6cb67fabfc7de3faff1845d80335732f, clickElement {id=d1dfbe5a-c9b2-4115-93ee-bbf904a39d76}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\PRITAM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55101}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55101/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (6cb67fabfc7de3faff1845d80335732f)] -> xpath: //div[contains(text(),'BLR')]]
+Session ID: 6cb67fabfc7de3faff1845d80335732f
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at com.sun.proxy.$Proxy16.click(Unknown Source)
+at Pages.TravelPage.To_city(TravelPage.java:78)
+at Flipkart_testcases.Test_12_travel.Test_searchFlight(Test_12_travel.java:29)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_searchFlight -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:Flipkart_testcases.Test_12_travel@117e0fe5]" started-at="2023-01-10T07:00:56 IST" name="CloseBrowser" finished-at="2023-01-10T07:00:57 IST" duration-ms="413" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_searchFlight status=FAILURE method=Test_12_travel.Test_searchFlight()[pri:0, instance:Flipkart_testcases.Test_12_travel@117e0fe5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- Flipkart_testcases.Test_12_travel -->
+      <class name="Flipkart_testcases.Test_11_Seller">
+        <test-method is-config="true" signature="launchurl(java.lang.reflect.Method)[pri:0, instance:Flipkart_testcases.Test_11_Seller@52500920]" started-at="2023-01-10T07:00:35 IST" name="launchurl" finished-at="2023-01-10T07:00:36 IST" duration-ms="1153" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Flipkart_testcases.Test_11_Seller.SellerTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchurl -->
+        <test-method signature="SellerTest()[pri:0, instance:Flipkart_testcases.Test_11_Seller@52500920]" started-at="2023-01-10T07:00:36 IST" name="SellerTest" finished-at="2023-01-10T07:00:44 IST" duration-ms="8586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SellerTest -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:Flipkart_testcases.Test_11_Seller@52500920]" started-at="2023-01-10T07:00:44 IST" name="CloseBrowser" finished-at="2023-01-10T07:00:44 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SellerTest status=SUCCESS method=Test_11_Seller.SellerTest()[pri:0, instance:Flipkart_testcases.Test_11_Seller@52500920] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- Flipkart_testcases.Test_11_Seller -->
+      <class name="Flipkart_testcases.Test_13_advertise">
+        <test-method is-config="true" signature="launchurl(java.lang.reflect.Method)[pri:0, instance:Flipkart_testcases.Test_13_advertise@18a3962d]" started-at="2023-01-10T07:00:57 IST" name="launchurl" finished-at="2023-01-10T07:00:58 IST" duration-ms="1142" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Flipkart_testcases.Test_13_advertise.ad_test() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchurl -->
+        <test-method signature="ad_test()[pri:0, instance:Flipkart_testcases.Test_13_advertise@18a3962d]" started-at="2023-01-10T07:00:58 IST" name="ad_test" finished-at="2023-01-10T07:01:15 IST" duration-ms="17630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ad_test -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:Flipkart_testcases.Test_13_advertise@18a3962d]" started-at="2023-01-10T07:01:15 IST" name="CloseBrowser" finished-at="2023-01-10T07:01:15 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ad_test status=SUCCESS method=Test_13_advertise.ad_test()[pri:0, instance:Flipkart_testcases.Test_13_advertise@18a3962d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- Flipkart_testcases.Test_13_advertise -->
+      <class name="Flipkart_testcases.Test_14_careers">
+        <test-method is-config="true" signature="launchurl(java.lang.reflect.Method)[pri:0, instance:Flipkart_testcases.Test_14_careers@78aea4b9]" started-at="2023-01-10T07:01:15 IST" name="launchurl" finished-at="2023-01-10T07:01:17 IST" duration-ms="1110" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Flipkart_testcases.Test_14_careers.Careers_Test() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchurl -->
+        <test-method signature="Careers_Test()[pri:0, instance:Flipkart_testcases.Test_14_careers@78aea4b9]" started-at="2023-01-10T07:01:17 IST" name="Careers_Test" finished-at="2023-01-10T07:01:44 IST" duration-ms="26973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Careers_Test -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:Flipkart_testcases.Test_14_careers@78aea4b9]" started-at="2023-01-10T07:01:44 IST" name="CloseBrowser" finished-at="2023-01-10T07:01:44 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Careers_Test status=SUCCESS method=Test_14_careers.Careers_Test()[pri:0, instance:Flipkart_testcases.Test_14_careers@78aea4b9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- Flipkart_testcases.Test_14_careers -->
+      <class name="Flipkart_testcases.Test_16_customer_care">
+        <test-method is-config="true" signature="launchurl(java.lang.reflect.Method)[pri:0, instance:Flipkart_testcases.Test_16_customer_care@4b85880b]" started-at="2023-01-10T07:01:54 IST" name="launchurl" finished-at="2023-01-10T07:01:56 IST" duration-ms="1107" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Flipkart_testcases.Test_16_customer_care.Customer_care_test() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchurl -->
+        <test-method signature="Customer_care_test()[pri:0, instance:Flipkart_testcases.Test_16_customer_care@4b85880b]" started-at="2023-01-10T07:01:56 IST" name="Customer_care_test" finished-at="2023-01-10T07:01:56 IST" duration-ms="8" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at Flipkart_testcases.Test_16_customer_care.Customer_care_test(Test_16_customer_care.java:19)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Customer_care_test -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:Flipkart_testcases.Test_16_customer_care@4b85880b]" started-at="2023-01-10T07:01:56 IST" name="CloseBrowser" finished-at="2023-01-10T07:01:56 IST" duration-ms="387" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Customer_care_test status=FAILURE method=Test_16_customer_care.Customer_care_test()[pri:0, instance:Flipkart_testcases.Test_16_customer_care@4b85880b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- Flipkart_testcases.Test_16_customer_care -->
+      <class name="Flipkart_testcases.Test_09_mouse_hover">
+        <test-method is-config="true" signature="launchurl(java.lang.reflect.Method)[pri:0, instance:Flipkart_testcases.Test_09_mouse_hover@41a90fa8]" started-at="2023-01-10T07:00:10 IST" name="launchurl" finished-at="2023-01-10T07:00:11 IST" duration-ms="1056" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Flipkart_testcases.Test_09_mouse_hover.Hover() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchurl -->
+        <test-method signature="Hover()[pri:0, instance:Flipkart_testcases.Test_09_mouse_hover@41a90fa8]" started-at="2023-01-10T07:00:11 IST" name="Hover" finished-at="2023-01-10T07:00:20 IST" duration-ms="8305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Hover -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:Flipkart_testcases.Test_09_mouse_hover@41a90fa8]" started-at="2023-01-10T07:00:20 IST" name="CloseBrowser" finished-at="2023-01-10T07:00:20 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Hover status=SUCCESS method=Test_09_mouse_hover.Hover()[pri:0, instance:Flipkart_testcases.Test_09_mouse_hover@41a90fa8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- Flipkart_testcases.Test_09_mouse_hover -->
+      <class name="Flipkart_testcases.Test_17_explore_plus">
+        <test-method is-config="true" signature="launchurl(java.lang.reflect.Method)[pri:0, instance:Flipkart_testcases.Test_17_explore_plus@4f936da8]" started-at="2023-01-10T07:01:56 IST" name="launchurl" finished-at="2023-01-10T07:01:58 IST" duration-ms="2336" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Flipkart_testcases.Test_17_explore_plus.Explore() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchurl -->
+        <test-method signature="Explore()[pri:0, instance:Flipkart_testcases.Test_17_explore_plus@4f936da8]" started-at="2023-01-10T07:01:58 IST" name="Explore" finished-at="2023-01-10T07:02:11 IST" duration-ms="13137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Explore -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:Flipkart_testcases.Test_17_explore_plus@4f936da8]" started-at="2023-01-10T07:02:11 IST" name="CloseBrowser" finished-at="2023-01-10T07:02:11 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Explore status=SUCCESS method=Test_17_explore_plus.Explore()[pri:0, instance:Flipkart_testcases.Test_17_explore_plus@4f936da8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- Flipkart_testcases.Test_17_explore_plus -->
+      <class name="Flipkart_testcases.Test_15_compare">
+        <test-method is-config="true" signature="launchurl(java.lang.reflect.Method)[pri:0, instance:Flipkart_testcases.Test_15_compare@2a65bb85]" started-at="2023-01-10T07:01:44 IST" name="launchurl" finished-at="2023-01-10T07:01:45 IST" duration-ms="1139" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Flipkart_testcases.Test_15_compare.compare_product() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchurl -->
+        <test-method signature="compare_product()[pri:0, instance:Flipkart_testcases.Test_15_compare@2a65bb85]" started-at="2023-01-10T07:01:45 IST" name="compare_product" finished-at="2023-01-10T07:01:54 IST" duration-ms="9769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compare_product -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:Flipkart_testcases.Test_15_compare@2a65bb85]" started-at="2023-01-10T07:01:54 IST" name="CloseBrowser" finished-at="2023-01-10T07:01:54 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=compare_product status=SUCCESS method=Test_15_compare.compare_product()[pri:0, instance:Flipkart_testcases.Test_15_compare@2a65bb85] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- Flipkart_testcases.Test_15_compare -->
+      <class name="Flipkart_testcases.Test_03_search_product">
+        <test-method is-config="true" signature="launchurl(java.lang.reflect.Method)[pri:0, instance:Flipkart_testcases.Test_03_search_product@4e76dac]" started-at="2023-01-10T06:58:50 IST" name="launchurl" finished-at="2023-01-10T06:58:51 IST" duration-ms="1275" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Flipkart_testcases.Test_03_search_product.search() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchurl -->
+        <test-method signature="search()[pri:0, instance:Flipkart_testcases.Test_03_search_product@4e76dac]" started-at="2023-01-10T06:58:51 IST" name="search" finished-at="2023-01-10T06:58:53 IST" duration-ms="1344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:Flipkart_testcases.Test_03_search_product@4e76dac]" started-at="2023-01-10T06:58:53 IST" name="CloseBrowser" finished-at="2023-01-10T06:58:53 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=search status=SUCCESS method=Test_03_search_product.search()[pri:0, instance:Flipkart_testcases.Test_03_search_product@4e76dac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- Flipkart_testcases.Test_03_search_product -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

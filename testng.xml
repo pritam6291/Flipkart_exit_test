@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="20" name="Test">
+		<classes>
+			
+			<class name="Flipkart_testcases.Test_02_login" />
+			<class name="Flipkart_testcases.test_01_verify_title" />
+			<class name="Flipkart_testcases.Test_03_search_product" />
+			<class name="Flipkart_testcases.Test_04_add_to_cart" />
+			<class name="Flipkart_testcases.Test_05_giftCards" />
+			<class name="Flipkart_testcases.Test_06_grocery_basket" />
+			<class name="Flipkart_testcases.Test_07_grocery" />
+			<class name="Flipkart_testcases.Test_08_mobiles" />
+			<class name="Flipkart_testcases.Test_09_mouse_hover" />
+			<class name="Flipkart_testcases.Test_10_place_order" />
+			<class name="Flipkart_testcases.Test_11_Seller" />
+			<class name="Flipkart_testcases.Test_12_travel" />
+			<class name="Flipkart_testcases.Test_13_advertise" />
+			<class name="Flipkart_testcases.Test_14_careers" />
+			<class name="Flipkart_testcases.Test_15_compare" />
+			<class name="Flipkart_testcases.Test_16_customer_care" />
+			<class name="Flipkart_testcases.Test_17_explore_plus" />
+			<class name="Flipkart_testcases.Test_18_flipkart_stories" />
+			<class name="Flipkart_testcases.Test_19_flipkart_wholesale" />
+			<class name="Flipkart_testcases.Test_20_footer" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

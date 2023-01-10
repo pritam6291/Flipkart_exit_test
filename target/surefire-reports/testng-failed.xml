@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="Flipkart_testcases.Test_12_travel">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="Close"/>
+          <include name="Test_searchFlight"/>
+          <include name="launchurl"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- Flipkart_testcases.Test_12_travel -->
+      <class name="Flipkart_testcases.Test_16_customer_care">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="Customer_care_test"/>
+          <include name="Close"/>
+          <include name="launchurl"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- Flipkart_testcases.Test_16_customer_care -->
+      <class name="Flipkart_testcases.Test_07_grocery">
+        <methods>
+          <include name="grocery_test"/>
+          <include name="launchBrowser"/>
+          <include name="Close"/>
+          <include name="launchurl"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- Flipkart_testcases.Test_07_grocery -->
+      <class name="Flipkart_testcases.Test_10_place_order">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="Close"/>
+          <include name="order_place"/>
+          <include name="launchurl"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- Flipkart_testcases.Test_10_place_order -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

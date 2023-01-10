@@ -1,0 +1,1294 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\pritamghosh\eclipse-workspace\Selenium_Java_assignment\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">20 methods, 4 failed,   16 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Flipkart_testcases.Test_16_customer_care" class="method navigator-link" hash-for-method="Customer_care_test">Customer_care_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Flipkart_testcases.Test_12_travel" class="method navigator-link" hash-for-method="Test_searchFlight">Test_searchFlight</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Flipkart_testcases.Test_07_grocery" class="method navigator-link" hash-for-method="grocery_test">grocery_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Flipkart_testcases.Test_10_place_order" class="method navigator-link" hash-for-method="order_place">order_place</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Flipkart_testcases.Test_14_careers" class="method navigator-link" hash-for-method="Careers_Test">Careers_Test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Flipkart_testcases.Test_17_explore_plus" class="method navigator-link" hash-for-method="Explore">Explore</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Flipkart_testcases.Test_20_footer" class="method navigator-link" hash-for-method="FacebookFooterTest">FacebookFooterTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Flipkart_testcases.Test_05_giftCards" class="method navigator-link" hash-for-method="GiftCardTest">GiftCardTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Flipkart_testcases.Test_09_mouse_hover" class="method navigator-link" hash-for-method="Hover">Hover</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Flipkart_testcases.Test_08_mobiles" class="method navigator-link" hash-for-method="Mobile_TestCase">Mobile_TestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Flipkart_testcases.Test_11_Seller" class="method navigator-link" hash-for-method="SellerTest">SellerTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Flipkart_testcases.test_01_verify_title" class="method navigator-link" hash-for-method="TitleVerify">TitleVerify</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Flipkart_testcases.Test_13_advertise" class="method navigator-link" hash-for-method="ad_test">ad_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Flipkart_testcases.Test_04_add_to_cart" class="method navigator-link" hash-for-method="addToCart">addToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Flipkart_testcases.Test_15_compare" class="method navigator-link" hash-for-method="compare_product">compare_product</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Flipkart_testcases.Test_06_grocery_basket" class="method navigator-link" hash-for-method="grocery_basket">grocery_basket</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Flipkart_testcases.Test_02_login" class="method navigator-link" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Flipkart_testcases.Test_03_search_product" class="method navigator-link" hash-for-method="search">search</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Flipkart_testcases.Test_18_flipkart_stories" class="method navigator-link" hash-for-method="stories">stories</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Flipkart_testcases.Test_19_flipkart_wholesale" class="method navigator-link" hash-for-method="wholesale_test">wholesale_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Flipkart_testcases.Test_12_travel</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_searchFlight">
+                  </a> <!-- Test_searchFlight -->
+                  <span class="method-name">Test_searchFlight</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=108.0.5359.125)
+Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f90797441fc46d247f3a6cd3497cb87b, clickElement {id=94913d5b-ec6d-4d07-b80f-ce2fba585d61}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\PRITAM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53317}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53317/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (f90797441fc46d247f3a6cd3497cb87b)] -&gt; xpath: //div[contains(text(),&apos;BLR&apos;)]]
+Session ID: f90797441fc46d247f3a6cd3497cb87b
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy19.click(Unknown Source)
+	at Pages.TravelPage.To_city(TravelPage.java:78)
+	at Flipkart_testcases.Test_12_travel.Test_searchFlight(Test_12_travel.java:29)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Flipkart_testcases.Test_10_place_order</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="order_place">
+                  </a> <!-- order_place -->
+                  <span class="method-name">order_place</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;div._1Er18h div._6t1WkM._3HqJxg div._1YokD2._2GoDe3.col-12-12 div._1YokD2._3Mn1Gg:nth-child(1) div._1YokD2._3Mn1Gg.col-12-12 div._1AtVbE.col-12-12:nth-child(3) div.zab8Yh._10k93p div.nZz3kj._1hNI6F div._1uc2IE div._3dY_ZR &gt; button._23FHuj:nth-child(3)&quot;}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f90797441fc46d247f3a6cd3497cb87b, findElement {using=css selector, value=div._1Er18h div._6t1WkM._3HqJxg div._1YokD2._2GoDe3.col-12-12 div._1YokD2._3Mn1Gg:nth-child(1) div._1YokD2._3Mn1Gg.col-12-12 div._1AtVbE.col-12-12:nth-child(3) div.zab8Yh._10k93p div.nZz3kj._1hNI6F div._1uc2IE div._3dY_ZR &gt; button._23FHuj:nth-child(3)}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\PRITAM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53317}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53317/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f90797441fc46d247f3a6cd3497cb87b
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy19.click(Unknown Source)
+	at Pages.Place_order_page.Order(Place_order_page.java:32)
+	at Flipkart_testcases.Test_10_place_order.order_place(Test_10_place_order.java:31)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Flipkart_testcases.Test_16_customer_care</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Customer_care_test">
+                  </a> <!-- Customer_care_test -->
+                  <span class="method-name">Customer_care_test</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at Flipkart_testcases.Test_16_customer_care.Customer_care_test(Test_16_customer_care.java:19)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Flipkart_testcases.Test_07_grocery</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="grocery_test">
+                  </a> <!-- grocery_test -->
+                  <span class="method-name">grocery_test</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;container&quot;]/div/div[1]/div[1]/div[2]/div[3]/div[2]/div/div[2]/div[2]/div/div/div[1]/form/input&quot;}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f90797441fc46d247f3a6cd3497cb87b, findElement {using=xpath, value=//*[@id=&quot;container&quot;]/div/div[1]/div[1]/div[2]/div[3]/div[2]/div/div[2]/div[2]/div/div/div[1]/form/input}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\PRITAM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53317}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53317/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f90797441fc46d247f3a6cd3497cb87b
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy19.sendKeys(Unknown Source)
+	at Pages.GroceryPage.enter_pin(GroceryPage.java:38)
+	at Flipkart_testcases.Test_07_grocery.grocery_test(Test_07_grocery.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Flipkart_testcases.Test_09_mouse_hover</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Hover">
+                  </a> <!-- Hover -->
+                  <span class="method-name">Hover</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Flipkart_testcases.Test_11_Seller</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SellerTest">
+                  </a> <!-- SellerTest -->
+                  <span class="method-name">SellerTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Flipkart_testcases.Test_04_add_to_cart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addToCart">
+                  </a> <!-- addToCart -->
+                  <span class="method-name">addToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Flipkart_testcases.test_01_verify_title</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TitleVerify">
+                  </a> <!-- TitleVerify -->
+                  <span class="method-name">TitleVerify</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Flipkart_testcases.Test_19_flipkart_wholesale</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="wholesale_test">
+                  </a> <!-- wholesale_test -->
+                  <span class="method-name">wholesale_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Flipkart_testcases.Test_15_compare</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="compare_product">
+                  </a> <!-- compare_product -->
+                  <span class="method-name">compare_product</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Flipkart_testcases.Test_03_search_product</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="search">
+                  </a> <!-- search -->
+                  <span class="method-name">search</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Flipkart_testcases.Test_02_login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Flipkart_testcases.Test_13_advertise</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ad_test">
+                  </a> <!-- ad_test -->
+                  <span class="method-name">ad_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Flipkart_testcases.Test_17_explore_plus</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Explore">
+                  </a> <!-- Explore -->
+                  <span class="method-name">Explore</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Flipkart_testcases.Test_05_giftCards</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GiftCardTest">
+                  </a> <!-- GiftCardTest -->
+                  <span class="method-name">GiftCardTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Flipkart_testcases.Test_20_footer</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="FacebookFooterTest">
+                  </a> <!-- FacebookFooterTest -->
+                  <span class="method-name">FacebookFooterTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Flipkart_testcases.Test_14_careers</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Careers_Test">
+                  </a> <!-- Careers_Test -->
+                  <span class="method-name">Careers_Test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Flipkart_testcases.Test_08_mobiles</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Mobile_TestCase">
+                  </a> <!-- Mobile_TestCase -->
+                  <span class="method-name">Mobile_TestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Flipkart_testcases.Test_18_flipkart_stories</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="stories">
+                  </a> <!-- stories -->
+                  <span class="method-name">stories</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Flipkart_testcases.Test_06_grocery_basket</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="grocery_basket">
+                  </a> <!-- grocery_basket -->
+                  <span class="method-name">grocery_basket</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\pritamghosh\eclipse-workspace\Selenium_Java_assignment\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;20&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Flipkart_testcases.Test_02_login&quot;/&gt;
+      &lt;class name=&quot;Flipkart_testcases.test_01_verify_title&quot;/&gt;
+      &lt;class name=&quot;Flipkart_testcases.Test_03_search_product&quot;/&gt;
+      &lt;class name=&quot;Flipkart_testcases.Test_04_add_to_cart&quot;/&gt;
+      &lt;class name=&quot;Flipkart_testcases.Test_05_giftCards&quot;/&gt;
+      &lt;class name=&quot;Flipkart_testcases.Test_06_grocery_basket&quot;/&gt;
+      &lt;class name=&quot;Flipkart_testcases.Test_07_grocery&quot;/&gt;
+      &lt;class name=&quot;Flipkart_testcases.Test_08_mobiles&quot;/&gt;
+      &lt;class name=&quot;Flipkart_testcases.Test_09_mouse_hover&quot;/&gt;
+      &lt;class name=&quot;Flipkart_testcases.Test_10_place_order&quot;/&gt;
+      &lt;class name=&quot;Flipkart_testcases.Test_11_Seller&quot;/&gt;
+      &lt;class name=&quot;Flipkart_testcases.Test_12_travel&quot;/&gt;
+      &lt;class name=&quot;Flipkart_testcases.Test_13_advertise&quot;/&gt;
+      &lt;class name=&quot;Flipkart_testcases.Test_14_careers&quot;/&gt;
+      &lt;class name=&quot;Flipkart_testcases.Test_15_compare&quot;/&gt;
+      &lt;class name=&quot;Flipkart_testcases.Test_16_customer_care&quot;/&gt;
+      &lt;class name=&quot;Flipkart_testcases.Test_17_explore_plus&quot;/&gt;
+      &lt;class name=&quot;Flipkart_testcases.Test_18_flipkart_stories&quot;/&gt;
+      &lt;class name=&quot;Flipkart_testcases.Test_19_flipkart_wholesale&quot;/&gt;
+      &lt;class name=&quot;Flipkart_testcases.Test_20_footer&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (20 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(20);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'stories')
+data.setCell(0, 2, 'Flipkart_testcases.Test_18_flipkart_stories')
+data.setCell(0, 3, 40790);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'FacebookFooterTest')
+data.setCell(1, 2, 'Flipkart_testcases.Test_20_footer')
+data.setCell(1, 3, 32104);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'GiftCardTest')
+data.setCell(2, 2, 'Flipkart_testcases.Test_05_giftCards')
+data.setCell(2, 3, 28822);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Careers_Test')
+data.setCell(3, 2, 'Flipkart_testcases.Test_14_careers')
+data.setCell(3, 3, 25836);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'ad_test')
+data.setCell(4, 2, 'Flipkart_testcases.Test_13_advertise')
+data.setCell(4, 3, 18017);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Mobile_TestCase')
+data.setCell(5, 2, 'Flipkart_testcases.Test_08_mobiles')
+data.setCell(5, 3, 16050);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'order_place')
+data.setCell(6, 2, 'Flipkart_testcases.Test_10_place_order')
+data.setCell(6, 3, 13596);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Explore')
+data.setCell(7, 2, 'Flipkart_testcases.Test_17_explore_plus')
+data.setCell(7, 3, 13262);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'grocery_basket')
+data.setCell(8, 2, 'Flipkart_testcases.Test_06_grocery_basket')
+data.setCell(8, 3, 12864);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Test_searchFlight')
+data.setCell(9, 2, 'Flipkart_testcases.Test_12_travel')
+data.setCell(9, 3, 10851);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'SellerTest')
+data.setCell(10, 2, 'Flipkart_testcases.Test_11_Seller')
+data.setCell(10, 3, 10651);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'compare_product')
+data.setCell(11, 2, 'Flipkart_testcases.Test_15_compare')
+data.setCell(11, 3, 9529);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'wholesale_test')
+data.setCell(12, 2, 'Flipkart_testcases.Test_19_flipkart_wholesale')
+data.setCell(12, 3, 8926);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'addToCart')
+data.setCell(13, 2, 'Flipkart_testcases.Test_04_add_to_cart')
+data.setCell(13, 3, 8719);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'Hover')
+data.setCell(14, 2, 'Flipkart_testcases.Test_09_mouse_hover')
+data.setCell(14, 3, 8257);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'grocery_test')
+data.setCell(15, 2, 'Flipkart_testcases.Test_07_grocery')
+data.setCell(15, 3, 5201);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'search')
+data.setCell(16, 2, 'Flipkart_testcases.Test_03_search_product')
+data.setCell(16, 3, 1308);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'login')
+data.setCell(17, 2, 'Flipkart_testcases.Test_02_login')
+data.setCell(17, 3, 331);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'TitleVerify')
+data.setCell(18, 2, 'Flipkart_testcases.test_01_verify_title')
+data.setCell(18, 3, 18);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'Customer_care_test')
+data.setCell(19, 2, 'Flipkart_testcases.Test_16_customer_care')
+data.setCell(19, 3, 5);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">38 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Flipkart_testcases.Test_12_travel</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">launchBrowser</span>
+                <br/>
+                <span class="ignored-method-name">Close</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Flipkart_testcases.Test_10_place_order</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">launchBrowser</span>
+                <br/>
+                <span class="ignored-method-name">Close</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Flipkart_testcases.Test_09_mouse_hover</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">launchBrowser</span>
+                <br/>
+                <span class="ignored-method-name">Close</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Flipkart_testcases.Test_11_Seller</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">launchBrowser</span>
+                <br/>
+                <span class="ignored-method-name">Close</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Flipkart_testcases.Test_04_add_to_cart</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">launchBrowser</span>
+                <br/>
+                <span class="ignored-method-name">Close</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Flipkart_testcases.test_01_verify_title</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">launchBrowser</span>
+                <br/>
+                <span class="ignored-method-name">Close</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Flipkart_testcases.Test_19_flipkart_wholesale</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">launchBrowser</span>
+                <br/>
+                <span class="ignored-method-name">Close</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Flipkart_testcases.Test_15_compare</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">launchBrowser</span>
+                <br/>
+                <span class="ignored-method-name">Close</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Flipkart_testcases.Test_03_search_product</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">launchBrowser</span>
+                <br/>
+                <span class="ignored-method-name">Close</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Flipkart_testcases.Test_13_advertise</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">launchBrowser</span>
+                <br/>
+                <span class="ignored-method-name">Close</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Flipkart_testcases.Test_17_explore_plus</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">launchBrowser</span>
+                <br/>
+                <span class="ignored-method-name">Close</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Flipkart_testcases.Test_05_giftCards</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">launchBrowser</span>
+                <br/>
+                <span class="ignored-method-name">Close</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Flipkart_testcases.Test_20_footer</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">launchBrowser</span>
+                <br/>
+                <span class="ignored-method-name">Close</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Flipkart_testcases.Test_14_careers</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">launchBrowser</span>
+                <br/>
+                <span class="ignored-method-name">Close</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Flipkart_testcases.Test_08_mobiles</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">launchBrowser</span>
+                <br/>
+                <span class="ignored-method-name">Close</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Flipkart_testcases.Test_18_flipkart_stories</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">launchBrowser</span>
+                <br/>
+                <span class="ignored-method-name">Close</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Flipkart_testcases.Test_16_customer_care</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">launchBrowser</span>
+                <br/>
+                <span class="ignored-method-name">Close</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Flipkart_testcases.Test_07_grocery</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">launchBrowser</span>
+                <br/>
+                <span class="ignored-method-name">Close</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Flipkart_testcases.Test_06_grocery_basket</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">launchBrowser</span>
+                <br/>
+                <span class="ignored-method-name">Close</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Flipkart_testcases.Test_02_login</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchurl(public void Flipkart_testcases.Test_02_login.login())</span>
+                <span class="method-start">2847 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">login</span>
+                <span class="method-start">46632 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser([TestResult name=login status=SUCCESS method=Test_02_login.login()[pri:0, instance:Flipkart_testcase...)</span>
+                <span class="method-start">46967 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Flipkart_testcases.test_01_verify_title</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchurl(public void Flipkart_testcases.test_01_verify_title.TitleVerify())</span>
+                <span class="method-start">46976 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TitleVerify</span>
+                <span class="method-start">48177 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser([TestResult name=TitleVerify status=SUCCESS method=test_01_verify_title.TitleVerify()[pri:0, instanc...)</span>
+                <span class="method-start">48196 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Flipkart_testcases.Test_03_search_product</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchurl(public void Flipkart_testcases.Test_03_search_product.search() throws java.lang.InterruptedException)</span>
+                <span class="method-start">48197 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">search</span>
+                <span class="method-start">49234 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser([TestResult name=search status=SUCCESS method=Test_03_search_product.search()[pri:0, instance:Flipka...)</span>
+                <span class="method-start">50544 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Flipkart_testcases.Test_04_add_to_cart</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchurl(public void Flipkart_testcases.Test_04_add_to_cart.addToCart() throws java.lang.InterruptedException)</span>
+                <span class="method-start">50545 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addToCart</span>
+                <span class="method-start">51575 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser([TestResult name=addToCart status=SUCCESS method=Test_04_add_to_cart.addToCart()[pri:0, instance:Fli...)</span>
+                <span class="method-start">60294 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Flipkart_testcases.Test_05_giftCards</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchurl(public void Flipkart_testcases.Test_05_giftCards.GiftCardTest() throws java.lang.InterruptedExceptio...)</span>
+                <span class="method-start">60295 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">GiftCardTest</span>
+                <span class="method-start">61260 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser([TestResult name=GiftCardTest status=SUCCESS method=Test_05_giftCards.GiftCardTest()[pri:0, instance...)</span>
+                <span class="method-start">90083 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Flipkart_testcases.Test_06_grocery_basket</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchurl(public void Flipkart_testcases.Test_06_grocery_basket.grocery_basket() throws java.lang.InterruptedE...)</span>
+                <span class="method-start">90084 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">grocery_basket</span>
+                <span class="method-start">91126 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser([TestResult name=grocery_basket status=SUCCESS method=Test_06_grocery_basket.grocery_basket()[pri:0,...)</span>
+                <span class="method-start">103992 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Flipkart_testcases.Test_07_grocery</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchurl(public void Flipkart_testcases.Test_07_grocery.grocery_test() throws java.lang.InterruptedException)</span>
+                <span class="method-start">103994 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">grocery_test</span>
+                <span class="method-start">105293 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser([TestResult name=grocery_test status=FAILURE method=Test_07_grocery.grocery_test()[pri:0, instance:F...)</span>
+                <span class="method-start">110496 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Flipkart_testcases.Test_08_mobiles</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchurl(public void Flipkart_testcases.Test_08_mobiles.Mobile_TestCase() throws java.lang.InterruptedExcepti...)</span>
+                <span class="method-start">110874 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Mobile_TestCase</span>
+                <span class="method-start">111989 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser([TestResult name=Mobile_TestCase status=SUCCESS method=Test_08_mobiles.Mobile_TestCase()[pri:0, inst...)</span>
+                <span class="method-start">128040 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Flipkart_testcases.Test_09_mouse_hover</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchurl(public void Flipkart_testcases.Test_09_mouse_hover.Hover() throws java.lang.InterruptedException)</span>
+                <span class="method-start">128041 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Hover</span>
+                <span class="method-start">129256 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser([TestResult name=Hover status=SUCCESS method=Test_09_mouse_hover.Hover()[pri:0, instance:Flipkart_te...)</span>
+                <span class="method-start">137513 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Flipkart_testcases.Test_10_place_order</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchurl(public void Flipkart_testcases.Test_10_place_order.order_place() throws java.lang.InterruptedExcepti...)</span>
+                <span class="method-start">137514 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">order_place</span>
+                <span class="method-start">138679 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser([TestResult name=order_place status=FAILURE method=Test_10_place_order.order_place()[pri:0, instance...)</span>
+                <span class="method-start">152277 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Flipkart_testcases.Test_11_Seller</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchurl(public void Flipkart_testcases.Test_11_Seller.SellerTest() throws java.lang.InterruptedException)</span>
+                <span class="method-start">152569 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SellerTest</span>
+                <span class="method-start">153827 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser([TestResult name=SellerTest status=SUCCESS method=Test_11_Seller.SellerTest()[pri:0, instance:Flipka...)</span>
+                <span class="method-start">164479 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Flipkart_testcases.Test_12_travel</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchurl(public void Flipkart_testcases.Test_12_travel.Test_searchFlight() throws java.lang.InterruptedExcept...)</span>
+                <span class="method-start">164481 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Test_searchFlight</span>
+                <span class="method-start">165700 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser([TestResult name=Test_searchFlight status=FAILURE method=Test_12_travel.Test_searchFlight()[pri:0, i...)</span>
+                <span class="method-start">176553 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Flipkart_testcases.Test_13_advertise</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchurl(public void Flipkart_testcases.Test_13_advertise.ad_test() throws java.lang.InterruptedException)</span>
+                <span class="method-start">176983 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ad_test</span>
+                <span class="method-start">178144 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser([TestResult name=ad_test status=SUCCESS method=Test_13_advertise.ad_test()[pri:0, instance:Flipkart_...)</span>
+                <span class="method-start">196161 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Flipkart_testcases.Test_14_careers</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchurl(public void Flipkart_testcases.Test_14_careers.Careers_Test() throws java.lang.InterruptedException)</span>
+                <span class="method-start">196162 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Careers_Test</span>
+                <span class="method-start">197483 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser([TestResult name=Careers_Test status=SUCCESS method=Test_14_careers.Careers_Test()[pri:0, instance:F...)</span>
+                <span class="method-start">223321 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Flipkart_testcases.Test_15_compare</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchurl(public void Flipkart_testcases.Test_15_compare.compare_product() throws java.lang.InterruptedExcepti...)</span>
+                <span class="method-start">223321 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">compare_product</span>
+                <span class="method-start">224517 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser([TestResult name=compare_product status=SUCCESS method=Test_15_compare.compare_product()[pri:0, inst...)</span>
+                <span class="method-start">234047 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Flipkart_testcases.Test_16_customer_care</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchurl(public void Flipkart_testcases.Test_16_customer_care.Customer_care_test() throws java.lang.Interrupt...)</span>
+                <span class="method-start">234048 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Customer_care_test</span>
+                <span class="method-start">235233 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser([TestResult name=Customer_care_test status=FAILURE method=Test_16_customer_care.Customer_care_test()...)</span>
+                <span class="method-start">235240 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Flipkart_testcases.Test_17_explore_plus</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchurl(public void Flipkart_testcases.Test_17_explore_plus.Explore() throws java.lang.InterruptedException)</span>
+                <span class="method-start">235729 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Explore</span>
+                <span class="method-start">236849 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser([TestResult name=Explore status=SUCCESS method=Test_17_explore_plus.Explore()[pri:0, instance:Flipka...)</span>
+                <span class="method-start">250112 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Flipkart_testcases.Test_18_flipkart_stories</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchurl(public void Flipkart_testcases.Test_18_flipkart_stories.stories() throws java.lang.InterruptedExcept...)</span>
+                <span class="method-start">250113 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">stories</span>
+                <span class="method-start">251398 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser([TestResult name=stories status=SUCCESS method=Test_18_flipkart_stories.stories()[pri:0, instance:Fl...)</span>
+                <span class="method-start">292189 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Flipkart_testcases.Test_19_flipkart_wholesale</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchurl(public void Flipkart_testcases.Test_19_flipkart_wholesale.wholesale_test() throws java.lang.Interrup...)</span>
+                <span class="method-start">292191 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">wholesale_test</span>
+                <span class="method-start">293596 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Flipkart_testcases.Test_20_footer</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchurl(public void Flipkart_testcases.Test_20_footer.FacebookFooterTest() throws java.lang.InterruptedExcep...)</span>
+                <span class="method-start">302523 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Flipkart_testcases.Test_19_flipkart_wholesale</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser([TestResult name=wholesale_test status=SUCCESS method=Test_19_flipkart_wholesale.wholesale_test()[pr...)</span>
+                <span class="method-start">302523 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Flipkart_testcases.Test_20_footer</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">FacebookFooterTest</span>
+                <span class="method-start">303707 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseBrowser([TestResult name=FacebookFooterTest status=SUCCESS method=Test_20_footer.FacebookFooterTest()[pri:0,...)</span>
+                <span class="method-start">335812 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Flipkart_testcases.Test_02_login</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">Close</span>
+                <span class="method-start">335864 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
